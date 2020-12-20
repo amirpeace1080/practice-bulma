@@ -4,26 +4,93 @@
       <div class="conatiner">
         <h1 class="title">HOME PAGE</h1>
 
-        <!-- Text transformation -->
-       <!-- <p class="is-size-1 is-capitalized">bulma text</p>
-       <p class="is-size-1 is-lowercase">Bulma text</p>
-       <p class="is-size-1 is-uppercase">bulma text</p>
-       <p class="is-size-1 is-italic">bulma text</p> -->
+        <h1 class="title">
+          colors
+        </h1>
 
-          <!-- Text weight -->
-       <!-- <p class="is-size-2">text bulma</p>
-       <p class="is-size-2 has-text-weight-light">text bulma</p>
-       <p class="is-size-2 has-text-weight-normal">text bulma</p>
-       <p class="is-size-2 has-text-weight-medium">text bulma</p>
-       <p class="is-size-2 has-text-weight-semibold">text bulma semibold</p>
-       <p class="is-size-2 has-text-weight-bold">text bulma bold</p> -->
+        <p class="subtitle has-text-white has-background-black">
+          white
+        </p>
 
-        <!-- text font -->
-       <p class="size-1 is-family-sans-serif">bulma text</p>
-       <p class="size-1 is-family-monospace">bulma text</p>
-       <p class="size-1 is-family-primary">bulma text</p>
-       <p class="size-1 is-family-secondary">bulma text</p>
-       <p class="size-1 is-family-code">bulma text</p>
+        <p class="subtitle has-text-primary">
+          primary
+        </p>
+
+        <p class="subtitle has-text-light has-background-dark">
+          light
+        </p>
+
+        <p class="subtitle has-text-info">
+          info
+        </p>
+
+        <p class="subtitle has-text-success">
+          success
+        </p>
+
+        <p class="subtitle has-text-danger">
+          danger
+        </p>
+
+        <p class="subtitle has-text-link">
+          link
+        </p>
+
+        <p class="subtitle has-text-warning">
+          warning
+        </p>
+
+        <p class="subtitle has-text-black-bis">
+          black-bis
+        </p>
+
+        <p class="subtitle has-text-black-ter">
+          black-ter
+        </p>
+
+        <p class="subtitle has-text-grey">
+          grey
+        </p>
+
+        <p class="subtitle has-text-grey-light">
+          grey-light
+        </p>
+
+        <p class="subtitle has-text-grey-lighter">
+          grey-lighter
+        </p>
+
+        <p class="subtitle has-text-white-ter">
+          white-ter
+        </p>
+
+        <p class="subtitle has-text-white-bis">
+          white bis
+        </p>
+
+        <p class="subtitle has-text-primary-light has-background-primary-dark">
+          primary light
+        </p>
+
+        <p class="subtitle has-text-link-light has-background-link-dark">
+          link-light
+        </p>
+
+        <p class="subtitle has-text-info-light has-background-info-dark">
+          info-light
+        </p>
+
+        <p class="subtitle has-text-success-light has-background-success-dark">
+          success-light
+        </p>
+
+        <p class="subtitle has-text-warning-light has-background-warning-dark">
+          warning-light
+        </p>
+
+        <p class="subtitle has-text-danger-light has-background-danger-dark">
+          danger-light
+        </p>
 
       </div>
     </div>
