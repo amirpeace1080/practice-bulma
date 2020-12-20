@@ -4,15 +4,26 @@
       <div class="conatiner">
         <h1 class="title">HOME PAGE</h1>
 
-        <!-- <p class="is-size-1">bulma text 3 rem</p>
-        <p class="is-size-2">bulma text 2.5 rem</p>
-        <p class="is-size-3">bulma text 2 rem</p>
-        <p class="is-size-4">bulma text 1.5 rem</p>
-        <p class="is-size-5">bulma text 1.25 rem</p>
-        <p class="is-size-6">bulma text 1 rem</p>
-        <p class="is-size-7">bulma text 0.75 rem</p> -->
+        <!-- Text transformation -->
+       <!-- <p class="is-size-1 is-capitalized">bulma text</p>
+       <p class="is-size-1 is-lowercase">Bulma text</p>
+       <p class="is-size-1 is-uppercase">bulma text</p>
+       <p class="is-size-1 is-italic">bulma text</p> -->
 
-        <p class="is-size-4 has-text-centered-tablet-only">bulma text 2.5 rem</p>
+          <!-- Text weight -->
+       <!-- <p class="is-size-2">text bulma</p>
+       <p class="is-size-2 has-text-weight-light">text bulma</p>
+       <p class="is-size-2 has-text-weight-normal">text bulma</p>
+       <p class="is-size-2 has-text-weight-medium">text bulma</p>
+       <p class="is-size-2 has-text-weight-semibold">text bulma semibold</p>
+       <p class="is-size-2 has-text-weight-bold">text bulma bold</p> -->
+
+        <!-- text font -->
+       <p class="size-1 is-family-sans-serif">bulma text</p>
+       <p class="size-1 is-family-monospace">bulma text</p>
+       <p class="size-1 is-family-primary">bulma text</p>
+       <p class="size-1 is-family-secondary">bulma text</p>
+       <p class="size-1 is-family-code">bulma text</p>
 
       </div>
     </div>
