@@ -3,34 +3,48 @@
     <h1 class="title has-text-centered has-text-info">Home Page</h1>
     <br /><br />
 
-    <div class="section">
+    <section class="section">
       <div class="container">
-        
+
         <div class="columns">
           <div class="column">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="">
-            </figure>
+            <p class="notification is-info">First Column</p>
+
+            <div class="columns is-mobile">
+              <div class="column">
+                <p class="notification is-info">First Nested column</p>
+              </div>
+
+              <div class="column">
+                <p class="notification is-info">Second nested Column</p>
+              </div>
+            </div>
           </div>
+
           <div class="column">
-            <figure class="image is-fullwidth">
-              <img src="https://bulma.io/images/placeholders/96x96.png" alt="">
-            </figure>
-          </div>
-          <div class="column">
-            <figure class="image is-5by4">
-              <img src="https://i.pinimg.com/originals/aa/7c/82/aa7c829eb316ab1d077a5768188ee622.jpg" alt="">
-            </figure>
-          </div>
-          <div class="column">
-            <figure class="image is-16by9">
-              <img src="https://i.pinimg.com/originals/aa/7c/82/aa7c829eb316ab1d077a5768188ee622.jpg" alt="">
-            </figure>
+            <p class="notification is-danger">Second Column</p>
+
+            <div class="columns is-gapless">
+              <div class="column is-half">
+                <p class="notification is-danger">50%</p>
+              </div>
+
+              <div class="column">
+              <p class="notification is-danger">Auto</p>
+            </div>
+
+            <div class="column">
+              <p class="notification is-danger">Auto</p>
+            </div>
+            </div>
+
+            
           </div>
         </div>
 
       </div>
-    </div>
+    </section>
+
   </div>
 </template>
 
