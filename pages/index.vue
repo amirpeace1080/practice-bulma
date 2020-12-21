@@ -6,41 +6,17 @@
     <section class="section">
       <div class="container">
 
-        <div class="columns">
-          <div class="column">
-            <p class="notification is-info">First Column</p>
+        <p class="pl-6 mb-6 has-text-danger has-background-warning is-size-3">
+          Hello Bulma
+        </p>
 
-            <div class="columns is-mobile">
-              <div class="column">
-                <p class="notification is-info">First Nested column</p>
-              </div>
+        <p class="px-4 py-6 has-text-white has-background-success is-size-3">
+          Spacing Spacing Spacing Spacing Spacing Spacing Spacing Spacing htllo Spacing
+        </p>
 
-              <div class="column">
-                <p class="notification is-info">Second nested Column</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <p class="notification is-danger">Second Column</p>
-
-            <div class="columns is-gapless">
-              <div class="column is-half">
-                <p class="notification is-danger">50%</p>
-              </div>
-
-              <div class="column">
-              <p class="notification is-danger">Auto</p>
-            </div>
-
-            <div class="column">
-              <p class="notification is-danger">Auto</p>
-            </div>
-            </div>
-
-            
-          </div>
-        </div>
+        <p class="mt-3 pr-3 has-text-black has-background-info is-size-3">
+          Spacing Spacing Spacing Spacing Spacing Spacing Spacing Spacing htllo Spacing
+        </p>
 
       </div>
     </section>
