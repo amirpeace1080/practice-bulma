@@ -65,6 +65,65 @@
         </div>
       </div>
     </nav>
+
+    <section class="section">
+      <div class="columns">
+
+        <div class="column">
+
+        </div>
+
+
+        <div class="column is-4-tablet is-3-desktop is-2-widescreen">
+          <nav class="menu">
+            <p class="menu-label">
+              منوی اصلی
+            </p>
+            <ul class="menu-list">
+
+              <li>
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-digital-tachograph"></i>
+                  </span>
+                  داشبورد
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-book"></i>
+                  </span>
+                  کتاب ها
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-address-book"></i>
+                  </span>
+                  مشتری ها
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <span class="icon">
+                    <i class="fa fa-file"></i>
+                  </span>
+                  سفارشات
+                </a>
+              </li>
+
+
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </section>
     
   </div>
 </template>
