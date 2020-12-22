@@ -3,34 +3,24 @@
     <!-- <h1 class="title has-text-centered has-text-info">Home Page</h1>
     <br /><br /> -->
 
-    <!-- <div class="container">
-
-      <label class="checkbox" disabled>
-        <input type="checkbox" disabled>
-        I Agree to <a href="#">term and condition</a>
-      </label>
-
-    </div> -->
-
     <div class="container">
+      <div class="file has-name is-right">
+        <label class="file-label">
+          <input class="file-input" type="file" name="resume">
 
-      <div class="control">
-        <label class="radio">
-          <input type="radio" name="answer" checked>
-          Small
-        </label>
+          <span class="file-cta">
+            <span class="file-icon">
+              <i class="fa fa-upload"></i>
+            </span>
+            
+            <span class="file-label">Choose File ....</span>
+          </span>
 
-        <label class="radio">
-          <input type="radio" name="answer">
-          Medium
-        </label>
-
-        <label class="radio" disabled>
-          <input type="radio" name="answer" disabled>
-          Large
+          <span class="file-name">
+            Screenshoot-2020-12-18.jpg
+          </span>
         </label>
       </div>
-
     </div>
     
   </div>
