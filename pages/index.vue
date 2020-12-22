@@ -1,130 +1,12 @@
 <template>
   <div>
-    <!-- <h1 class="title has-text-centered has-text-info">Home Page</h1>
-    <br /><br /> -->
-
-    <nav class="navbar has-shadow is-light">
-      <div class="navbar-brand">
-        <a href="#" class="navbar-item">
-          <img src="images/logo.png" alt="">
-        </a>
-        <div class="navbar-burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-
-
-      <div class="navbar-menu">
-        <div class="navbar-start">
-          <div class="navbar-item">
-            <small>item01</small>
-          </div>
-        </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item has-dropdown is-hoverable">
-            <div class="navbar-link">
-              amirpeace1080
-            </div>
-            <div class="navbar-dropdown">
-
-              <a href="#" class="navbar-item">
-                <div>
-                  <span>پروفایل</span>
-                  <span class="icon is-small">
-                    <i class="fa fa-user-circle"></i>
-                  </span>
-                  <span></span>
-                </div>
-              </a>
-
-              <a href="#" class="navbar-item">
-                <div>
-                  <span>گزارشات</span>
-                  <span class="icon is-small">
-                    <i class="fa fa-bug"></i>
-                  </span>
-                  <span></span>
-                </div>
-              </a>
-
-              <a href="#" class="navbar-item">
-                <div>
-                  <span>خروج</span>
-                  <span class="icon is-small">
-                    <i class="fa fa-signout-out-alt"></i>
-                  </span>
-                  <span></span>
-                </div>
-              </a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <section class="section">
+    <section class="section" dir="rtl">
       <div class="columns">
 
-        <div class="column" style="direction:rtl">
-          <h1 class="title">کتاب ها</h1>
-          <nav class="level">
-            
-            <div class="level-left">
 
-              <div class="level-item">
-                <p class="subtitle">
-                  تعداد <strong>6</strong>
-                </p>
-              </div>
-
-                <p class="level-item">
-                  <a href="#" class="button is-success">جدید</a>
-                </p>
-
-                <div class="level-item">
-                  <div class="field has-addons">
-
-                    <p class="control">
-                      <input type="text" class="input" placeholder="نام کتاب ، ISBN">
-                    </p>
-
-                    <p class="control">
-                      <button class="button">جستجو</button>
-                    </p>
-
-                  </div>
-                </div>
-
-            </div>
-
-
-            <div class="level-right">
-              <div class="level-item">
-                سفارشات براساس
-
-                <div class="level-item">
-                  <div class="select">
-                    <select>
-                      <option>تاریخ انتشار</option>
-                      <option>قیمت</option>
-                      <option>تعداد صفحه</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </nav>
-        </div>
-
-
-
+      <!-- start main menu -->
         <div class="column is-4-tablet is-3-desktop is-2-widescreen">
-          <nav class="menu">
+          <nav class="menu" dir="rtl">
             <p class="menu-label">
               منوی اصلی
             </p>
@@ -166,10 +48,276 @@
                 </nuxt-link>
               </li>
 
-
             </ul>
           </nav>
         </div>
+
+        <!-- end main menu -->
+
+
+          <!-- start toolbar -->
+         <div class="column" style="direction:rtl">
+          <h1 class="title">کتاب ها</h1>
+          <nav class="level">
+            
+            <div class="level-left">
+
+              <div class="level-item">
+                <p class="subtitle">
+                  تعداد <strong>6</strong>
+                </p>
+              </div>
+
+                <p class="level-item">
+                  <a href="#" class="button is-success">جدید</a>
+                </p>
+
+                <div class="level-item is-hidden-tablet-only">
+                  <div class="field has-addons">
+
+                    <p class="control">
+                      <input type="text" class="input" placeholder="نام کتاب ، ISBN">
+                    </p>
+
+                    <p class="control">
+                      <button class="button">جستجو</button>
+                    </p>
+
+                  </div>
+                </div>
+
+            </div>
+
+
+            <div class="level-right">
+              <div class="level-item">
+                سفارشات براساس
+
+                <div class="level-item">
+                  <div class="select">
+                    <select>
+                      <option>تاریخ انتشار</option>
+                      <option>قیمت</option>
+                      <option>تعداد صفحه</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </nav>
+
+        <!-- end toolbar -->
+
+
+        <div class="columns is-multiline" dir="ltr">
+
+          <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+            
+            <article class="box">
+              <div class="media">
+                <aside class="media-right">
+                  <img src="images/raz.jpg" width="80">
+                </aside>
+
+                <div class="media-content" dir="rtl">
+                  <p class="title">
+                    <a href="#">
+                      راز
+                    </a>
+                  </p>
+                  <p class="subtitle is-marginless has-text-success">
+                    42.000 تومان
+                  </p>
+                  <div class="content">
+                    215 صفحه
+                    <br>
+                    IBSN: 444-900-7381-213
+                    <br>
+                    <a href="#">ویرایش</a>
+                    <span> . </span>
+                    <a href="#">حذف</a>
+                  </div>
+                </div>
+
+              </div>
+            </article>
+
+          </div>
+
+          <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+            
+            <article class="box">
+              <div class="media">
+                <aside class="media-right">
+                  <img src="images/raz.jpg" width="80">
+                </aside>
+
+                <div class="media-content" dir="rtl">
+                  <p class="title">
+                    <a href="#">
+                      راز
+                    </a>
+                  </p>
+                  <p class="subtitle is-marginless has-text-success">
+                    42.000 تومان
+                  </p>
+                  <div class="content">
+                    215 صفحه
+                    <br>
+                    IBSN: 444-900-7381-213
+                    <br>
+                    <a href="#">ویرایش</a>
+                    <span> . </span>
+                    <a href="#">حذف</a>
+                  </div>
+                </div>
+
+              </div>
+            </article>
+          </div>
+
+
+          <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+            
+            <article class="box">
+              <div class="media">
+                <aside class="media-right">
+                  <img src="images/raz.jpg" width="80">
+                </aside>
+
+                <div class="media-content" dir="rtl">
+                  <p class="title">
+                    <a href="#">
+                      راز
+                    </a>
+                  </p>
+                  <p class="subtitle is-marginless has-text-success">
+                    42.000 تومان
+                  </p>
+                  <div class="content">
+                    215 صفحه
+                    <br>
+                    IBSN: 444-900-7381-213
+                    <br>
+                    <a href="#">ویرایش</a>
+                    <span> . </span>
+                    <a href="#">حذف</a>
+                  </div>
+                </div>
+
+              </div>
+            </article>
+          </div>
+
+
+          <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+            
+            <article class="box">
+              <div class="media">
+                <aside class="media-right">
+                  <img src="images/raz.jpg" width="80">
+                </aside>
+
+                <div class="media-content" dir="rtl">
+                  <p class="title">
+                    <a href="#">
+                      راز
+                    </a>
+                  </p>
+                  <p class="subtitle is-marginless has-text-success">
+                    42.000 تومان
+                  </p>
+                  <div class="content">
+                    215 صفحه
+                    <br>
+                    IBSN: 444-900-7381-213
+                    <br>
+                    <a href="#">ویرایش</a>
+                    <span> . </span>
+                    <a href="#">حذف</a>
+                  </div>
+                </div>
+
+              </div>
+            </article>
+          </div>
+
+
+          <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+            
+            <article class="box">
+              <div class="media">
+                <aside class="media-right">
+                  <img src="images/raz.jpg" width="80">
+                </aside>
+
+                <div class="media-content" dir="rtl">
+                  <p class="title">
+                    <a href="#">
+                      راز
+                    </a>
+                  </p>
+                  <p class="subtitle is-marginless has-text-success">
+                    42.000 تومان
+                  </p>
+                  <div class="content">
+                    215 صفحه
+                    <br>
+                    IBSN: 444-900-7381-213
+                    <br>
+                    <a href="#">ویرایش</a>
+                    <span> . </span>
+                    <a href="#">حذف</a>
+                  </div>
+                </div>
+
+              </div>
+            </article>
+          </div>
+
+
+
+          <div class="column is-12-tablet is-6-desktop is-4-widescreen">
+            
+            <article class="box">
+              <div class="media">
+                <aside class="media-right">
+                  <img src="images/raz.jpg" width="80">
+                </aside>
+
+                <div class="media-content" dir="rtl">
+                  <p class="title">
+                    <a href="#">
+                      راز
+                    </a>
+                  </p>
+                  <p class="subtitle is-marginless has-text-success">
+                    42.000 تومان
+                  </p>
+                  <div class="content">
+                    215 صفحه
+                    <br>
+                    IBSN: 444-900-7381-213
+                    <br>
+                    <a href="#">ویرایش</a>
+                    <span> . </span>
+                    <a href="#">حذف</a>
+                  </div>
+                </div>
+
+              </div>
+            </article>
+          </div>
+
+
+
+
+        </div>
+
+
+        </div>
+
 
       </div>
     </section>
