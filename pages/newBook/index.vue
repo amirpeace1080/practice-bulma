@@ -20,6 +20,42 @@
             </ul>
          </nav>
 
+         <!-- start form -->
+         <form>
+             <div class="field">
+                 <label class="label">عنوان</label>
+                 <div class="control">
+                   <input type="text" class="input is-large" placeholder="مثال" required>
+                 </div>
+             </div>
+
+             <div class="columns is-desktop">
+
+               <div class="column">
+                 <label class="label">قیمت</label>
+                 <div class="control has-icons-left">
+                   <input type="number" class="input" placeholder="22.000" required>
+                   <span class="icon is-small is-left">
+                     <i class="fa fa-dollar-sign"></i>
+                   </span>
+                 </div>
+               </div>
+
+               <div class="column">
+                 <label class="label">تعداد صفحات</label>
+                 <input type="number" class="input" placeholder="270" required>
+               </div>
+
+               <div class="column">
+                 <label class="label">ISBN</label>
+                 <div class="control">
+                   <input type="text" class="input" placeholder="12-3456-78-9">
+                 </div>
+               </div>
+
+             </div>
+         </form>
+
       </div>
     </section>
     
@@ -35,7 +71,7 @@ export default {
   },
   head(){
     return{
-      title: ''
+      title: 'کتاب جدید'
     }
   }
 }
