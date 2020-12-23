@@ -88,7 +88,7 @@
                     <br>
                     IBSN: 444-900-7381-213
                     <br>
-                    <a href="#">ویرایش</a>
+                    <nuxt-link to="/editBook">ویرایش</nuxt-link>
                     <span> . </span>
                     <a href="#">حذف</a>
                   </div>
@@ -121,7 +121,7 @@
                     <br>
                     IBSN: 444-900-7381-213
                     <br>
-                    <a href="#">ویرایش</a>
+                    <nuxt-link to="/editBook">ویرایش</nuxt-link>
                     <span> . </span>
                     <a href="#">حذف</a>
                   </div>
@@ -154,7 +154,7 @@
                     <br>
                     IBSN: 444-900-7381-213
                     <br>
-                    <a href="#">ویرایش</a>
+                    <nuxt-link to="/editBook">ویرایش</nuxt-link>
                     <span> . </span>
                     <a href="#">حذف</a>
                   </div>
@@ -187,7 +187,7 @@
                     <br>
                     IBSN: 444-900-7381-213
                     <br>
-                    <a href="#">ویرایش</a>
+                    <nuxt-link to="/editBook">ویرایش</nuxt-link>
                     <span> . </span>
                     <a href="#">حذف</a>
                   </div>
@@ -220,7 +220,7 @@
                     <br>
                     IBSN: 444-900-7381-213
                     <br>
-                    <a href="#">ویرایش</a>
+                    <nuxt-link to="/editBook">ویرایش</nuxt-link>
                     <span> . </span>
                     <a href="#">حذف</a>
                   </div>
@@ -254,7 +254,7 @@
                     <br>
                     IBSN: 444-900-7381-213
                     <br>
-                    <a href="#">ویرایش</a>
+                    <nuxt-link to="/editBook">ویرایش</nuxt-link>
                     <span> . </span>
                     <a href="#">حذف</a>
                   </div>
