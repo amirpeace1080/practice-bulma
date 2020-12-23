@@ -52,6 +52,6 @@
 
 <style>
   .nuxt-link-active{
-    background: #3273DC;
+    background: #ECEFF1;
   }
 </style>
