@@ -117,20 +117,20 @@
             <article class="box">
               <div class="media">
                 <aside class="media-right">
-                  <img src="images/raz.jpg" width="80">
+                  <img src="images/mardi.jpg" width="80">
                 </aside>
 
                 <div class="media-content" dir="rtl">
                   <p class="title">
                     <a href="#">
-                      راز
+                      مردی به نام اوه
                     </a>
                   </p>
                   <p class="subtitle is-marginless has-text-success">
-                    42.000 تومان
+                    32.000 تومان
                   </p>
                   <div class="content">
-                    215 صفحه
+                    51 صفحه
                     <br>
                     IBSN: 444-900-7381-213
                     <br>
@@ -160,7 +160,7 @@
                     </a>
                   </p>
                   <p class="subtitle is-marginless has-text-success">
-                    42.000 تومان
+                    72.000 تومان
                   </p>
                   <div class="content">
                     215 صفحه
@@ -314,6 +314,35 @@
 
 
         </div>
+
+        <!-- start paggination -->
+        <nav class="pagination" dir="rtl">
+          <a class="pagination-previous">قبلی</a>
+          <a class="pagination-next">بعدی</a>
+          <ul class="pagination-list">
+            <li>
+              <a class="pagination-link">1</a>
+            </li>
+            <li>
+              <span class="pagination-ellipsis">&hellip;</span>
+            </li>
+            <li>
+              <a class="pagination-link">45</a>
+            </li>
+            <li>
+              <a class="pagination-link is-current">46</a>
+            </li>
+            <li>
+              <a class="pagination-link">47</a>
+            </li>
+            <li>
+              <span class="pagination-ellipsis">&hellip;</span>
+            </li>
+            <li>
+              <a class="pagination-link">86</a>
+            </li>
+          </ul>
+        </nav>
 
 
         </div>
