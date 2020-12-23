@@ -16,12 +16,12 @@
               </li>
 
               <li>
-                <a href="/book" class="is-active">
+                <nuxt-link to="/" exact>
                   <span class="icon">
                     <i class="fa fa-book"></i>
                   </span>
                   کتاب ها
-                </a>
+                </nuxt-link>
               </li>
 
               <li>
@@ -47,3 +47,11 @@
         </div>
 
 </template>
+
+
+
+<style>
+  .nuxt-link-active{
+    background: #3273DC;
+  }
+</style>
