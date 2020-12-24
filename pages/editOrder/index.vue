@@ -60,8 +60,87 @@
                     </p>
                 </div>
 
+
                 <div class="column">
                     <!-- ستون سمت چپ برای لیست کتاب ها -->
+                    <p class="heading">
+                      <strong>کتاب ها</strong>
+                    </p>
+                    <table class="table is-bordered is-fullwidht">
+                      <thead>
+                        <tr>
+                          <td class="is-narrow">جلد کتاب</td>
+                          <td>عنوان</td>
+                          <td class="has-text-right is-narrow">قیمت</td>
+                          <td class="has-text-right is-narrow">تعداد سفارش</td>
+                          <td class="has-text-right is-narrow">قیمت کل</td>
+                        </tr>
+                      </thead>
+                      <tfoot>
+                        <tr>
+                          <td colspan="5" class="has-text-right">58.000 تومان</td>
+                        </tr>
+                      </tfoot>
+
+                      <tbody>
+                        <tr>
+                          <td>
+                            <img src="images/raz.jpg" width="40">
+                          </td>
+                          <td>
+                            <nuxt-link to="/editBook"><strong>راز</strong></nuxt-link>
+                          </td>
+                          <td class="has-text-right">21.000</td>
+                          <td>
+                            <input type="number" class="input is-small" value="2" maxlength="2" max="2">
+                          </td>
+                          <td class="has-text-right">42.000</td>
+                        </tr>
+
+
+                        <tr>
+                          <td>
+                            <img src="images/mellat.jpg" width="40">
+                          </td>
+                          <td>
+                            <nuxt-link to="/editBook"><strong>ملت عشق</strong></nuxt-link>
+                          </td>
+                          <td class="has-text-right">8.000</td>
+                          <td>
+                            <input type="number" class="input is-small" value="2" maxlength="2" max="2">
+                          </td>
+                          <td class="has-text-right">16.000</td>
+                        </tr>
+
+                        <tr>
+                          <td colspan="5">
+                            <div class="field is-grouped is-grouped-left">
+                              <div class="control">
+                                <div class="select is-small">
+                                  <select>
+                                    <option>ملت عشق</option>
+                                    <option>راز</option>
+                                    <option>اسکندر</option>
+                                    <option>شب های روشن</option>
+                                    <option>کتاب کیمیاگر</option>
+                                    <option>مردی به نام اوه</option>
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="control">
+                                <input type="number" class="input is-small" value="1" placeholder="تعداد" maxlength="2" max="9">
+                              </div>
+
+                              <div class="control">
+                                <nuxt-link to="" class="button is-small is-link">اضافه کردن کتاب</nuxt-link>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+
+                    </table>
                 </div>
 
             </div>
